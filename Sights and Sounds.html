@@ -98,7 +98,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="Sights and Sounds" startnode="1" creator="Twine" creator-version="2.3.16" ifid="EBEA8BE5-4288-4C14-9877-2CD10DF9935E" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Time Machine" tags="" position="800,1700" size="100,100">Tutorial Room; all types of puzzles/problem solving should be exhibited in this room to introduce the player to the system of control.
+	<tw-storydata name="Sights and Sounds" startnode="1" creator="Twine" creator-version="2.6.0" format="SugarCube" format-version="2.36.1" ifid="EBEA8BE5-4288-4C14-9877-2CD10DF9935E" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Time Machine" tags="" position="800,1700" size="100,100">Tutorial Room; all types of puzzles/problem solving should be exhibited in this room to introduce the player to the system of control.
 
 [[Garden Entrance 1]] / Opened after fixing the machine the first time.
 </tw-passagedata><tw-passagedata pid="2" name="Garden Entrance 1" tags="" position="1000,1700" size="100,100">[[Maze 1]]
@@ -117,9 +117,15 @@ Rotating maze puzzle; three possible solutions.</tw-passagedata><tw-passagedata 
 
 Basin: Working</tw-passagedata><tw-passagedata pid="5" name="Gate" tags="" position="1200,1500" size="100,100">[[Well]]
 
+Basin: Ruined
+
 Puzzle type: Environment
 
-Basin: Ruined
+Description: The Gate, at this point only has half its body (the other half is overgrown and impassable). It is powered by an electrical current that must be lined up using its far walls (think of it like a combination lock with each piece needing to connect to make a path to the door). 
+
+The player can switch parts of the wall to solve the puzzle, and then click on the generator (far side) to get B to flip the switch. (The switch could also be on a platform that the player could click as a signal to get B over.)
+
+
 
 
 </tw-passagedata><tw-passagedata pid="6" name="Graveyard" tags="" position="1400,1700" size="100,100">[[Hallway]]
@@ -131,10 +137,21 @@ Puzzle type: Environment</tw-passagedata><tw-passagedata pid="7" name="Well" tag
 
 Basin: Working
 
+Puzzle type: Environment
 
- </tw-passagedata><tw-passagedata pid="8" name="Hallway" tags="" position="1600,1700" size="100,100">[[Dining Room]]
+Description: In the foreground, there are wind-chime-like plants that have taken over. Clicking on one will have a gust of wind jostle it and make a sound. If the player stops and listens, there is a song coming from the bottom of the well, specific notes. Recreating the song via the chimes will make the creature at the bottom of the well very happy, and it&#39;ll spit up the machine piece that B&#39;s looking for.</tw-passagedata><tw-passagedata pid="8" name="Hallway" tags="" position="1600,1700" size="100,100">[[Dining Room]]
 
-Basin: Overgrown</tw-passagedata><tw-passagedata pid="9" name="Dining Room" tags="" position="1800,1700" size="100,100">[[Chest]]
+Basin: Overgrown
+
+Puzzle type: Environmental
+
+Description:
+
+The wall of the hallway has rotted away, revealing the pipework underneath. The pipes carry high-pressure steam that controls the locking mechanism on the door to the dining room. The idea is to change the direction via knobs to direct the steam towards the lock. However, some of the pipes are still hidden behind the wall. 
+
+If, after several tries/iterations, the player still has not managed to properly direct the steam towards the lock, B will start tearing down weak pieces of the wall/wallpaper to show more of the hidden pipes and help the player out.
+
+When the puzzle is solved, the door opens slightly before the steam runs out, just enough fot B to sneak in. </tw-passagedata><tw-passagedata pid="9" name="Dining Room" tags="" position="1800,1700" size="100,100">[[Chest]]
 
 [[Time Machine 2]] 
 
@@ -161,7 +178,13 @@ Rotating maze puzzle; two possible solutions.</tw-passagedata><tw-passagedata pi
 
 Basin: Working
 
-Puzzle Type: </tw-passagedata><tw-passagedata pid="13" name="Well 2" tags="" position="2600,1500" size="100,100">[[Winch Puzzle]]
+Puzzle Type: Environment
+
+Description: The Gate has two portions at this point. It is powered by an electrical current that must be lined up using its far walls (think of it like a combination lock with each piece needing to connect to make a path to the door). 
+
+The player can switch parts of the wall to solve the puzzle, and then click on the generator (far side) to get B to flip the switch. (The switch could also be on a platform that the player could click as a signal to get B over.)
+
+This is the second iteration of the &quot;Gate&quot; puzzle, and should be slightly more difficult than the first.</tw-passagedata><tw-passagedata pid="13" name="Well 2" tags="" position="2600,1500" size="100,100">[[Winch Puzzle]]
 
 [[Time Machine 3]] 
 
@@ -170,7 +193,7 @@ Basin: Overgrown
 Puzzle type: Dedicated room
 
 
-The player has to uncover the pieces of the well&#39;s winch in order to fix it. The well then pulls up a piece of the machine from its depths.</tw-passagedata><tw-passagedata pid="14" name="Graveyard 2" tags="" position="2600,1700" size="100,100">[[Hallway 2]]
+The player has to uncover the pieces of the well&#39;s winch in order to fix it. B picks up the uncovered pieces and sets them by the winch in the dedicated room. The well then pulls up a piece of the machine from its depths. (With the creature from the first well puzzle riding the piece).</tw-passagedata><tw-passagedata pid="14" name="Graveyard 2" tags="" position="2600,1700" size="100,100">[[Hallway 2]]
 
 Basin: Overgrown</tw-passagedata><tw-passagedata pid="15" name="Hallway 2" tags="" position="2800,1700" size="100,100">[[Dining Room 2]]
 
@@ -195,7 +218,7 @@ Basin: Empty (could be integrated into flower puzzle)</tw-passagedata><tw-passag
 Puzzle room.</tw-passagedata><tw-passagedata pid="27" name="Pause Menu" tags="" position="1001,1999" size="100,100">Inventory:
 
 1. Flashlight
-2. Map
+2. Map (complete or draws itself)
 3. Places for found items</tw-passagedata><tw-passagedata pid="28" name="Chest" tags="" position="1801,2000" size="100,100">[[Dining Room]]</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
